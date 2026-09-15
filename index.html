@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <title>貪食蛇遊戲</title>
+  <title>貪食蛇遊戲（電腦版）</title>
   <style>
     body {
       display: flex;
@@ -73,7 +73,7 @@
       if (!gameRunning) return;
       moveSnake();
       if (checkCollision()) {
-        alert(`遊戲結束！你的得分是：${score}`);
+        alert(`感謝你的遊玩，遊戲結束！你的得分是：${score}`);
         gameRunning = false;
         clearInterval(gameInterval);
         return;
